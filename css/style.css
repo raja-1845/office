@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* header */
+
+.aa{
+    background-color:ghostwhite;
+    font-size: 15px;
+    padding: 5px;
+ 
+    
+}
+
+.nav-item{
+    border: 1px solid transparent;
+}
+.nav-item:hover{
+     border-bottom:3px solid brown;
+}
+/* header finished */
+
+.card{
+    border: 1px solid red;
+    height: 450px;
+    overflow: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* media */
+
+@media (max-width: 568px) {
+    .card{
+        background-color: black;
+        color: azure;
+        width: 300px;
+        height: 500px;
+    }
+}
+
+.card-title{
+    font-size:25px;
+    color: brown;
+}
+.rev{
+    border: 1px solid red;
+    text-align: center;
+    padding: 15px;
+    height: 422px;
+    overflow: auto;
+   
+    
+}
+.rev h5{
+    color: brown;
+    font-size: 25px;
+    background-color: black;
+    
+}
+
+
+
+/* form */
+.form{
+   
+    border: 3px double orangered;
+   height: 200px;
+   width: 300px;
+ 
+  text-align: center;
+   padding-top: 10PX;
+    height: 300px;
+    overflow: auto;
+    font-size: 15px;
+    margin-left:350px;
+    
+}
+
+.form h2{
+   background-color: brown;
+   color: ghostwhite;
+}
+/* form finished */
+
+   
+/* footer */
+.footer{
+    background-color:ghostwhite;
+    height: 150px;
+}
+
+/* .dd a li{
+    color:rgb(7, 7, 7);
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: center;
+} */
+
+.dd h3{
+    margin-top: 30px;
+    color: chocolate;
+   
+}
+
+.cc a{
+   color: black;
+   text-decoration: none;
+}
+
+.cc li{
+    list-style: none;
+  
+}
+
+.heading{
+    color: brown;
+    text-align: center;
+    background-color: black;
+}
+
+.zz{
+    background-color: bisque;
+}
+
+.plan{
+    color: darkred;
+    text-align: center;
+}
+.
+.link a{
+    text-decoration: none;
+   
+}
